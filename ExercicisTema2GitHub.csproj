@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyLibraryAleMar\MyLibraryAleMar.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MyLibraryAleMar">
+      <HintPath>bin\Debug\net8.0\MyLibraryAleMar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
